@@ -33,5 +33,7 @@ namespace NestedObjects
         /// All the students currently enrolled in the course
         /// </summary>
         public List<Student> StudentRoster { get; set; }
+
+
     }
 }
