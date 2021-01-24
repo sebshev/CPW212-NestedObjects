@@ -18,6 +18,12 @@ namespace NestedObjects
         public string LastName { get; set; }
 
 
+        /// <summary>
+        /// List of courses student is in
+        /// </summary>
+        public List<Course> CourseSchedule { get; set; }
+
+
         public string ToString()
         {
             return LastName + ", " + FirstName;
