@@ -16,5 +16,11 @@ namespace NestedObjects
         /// The student's legal last name
         /// </summary>
         public string LastName { get; set; }
+
+
+        public string ToString()
+        {
+            return LastName + ", " + FirstName;
+        }
     }
 }
